@@ -8,15 +8,11 @@ header{
     height: 76px;
     display: flex;
     align-items: center;
-    background-color: darkblue;
+    background-color: rgb(39, 39, 59);
 
 }
 
-.content-header{
-    background-color: lightblue;
-    height: 50px;
-    border: 1px solid black;
-}
+
 
 .jumbo, .about{
     background-color: aquamarine;
@@ -37,12 +33,6 @@ header{
     background-color: grey;
 }
 
-.card-content{
-    background-color: red;
-    height: 150px;
-    border: 1px dashed black;
-    border-radius: 10px;
-}
 
 .content-form{
     background-color: green;
