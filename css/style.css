@@ -12,6 +12,22 @@ header{
 
 }
 
+.star {
+    display: flex;
+    flex-direction: row;
+  }
+  .star:before, .star:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 3px solid;
+    margin: auto;
+  }
+  .star:before {
+    margin-right: 10px
+  }
+  .star:after {
+    margin-left: 10px
+  }
 
 
 .jumbo, .about{
@@ -22,15 +38,8 @@ header{
     margin: 50px 0;
 }
 
-.content-jumbo{
-    height: 250px;
-    background-color: rgb(83, 83, 180);
-    border: 1px dashed black;
-}
-
 .title-content{
-    height: 50px;
-    background-color: grey;
+    color: rgb(50, 50, 67);
 }
 
 
